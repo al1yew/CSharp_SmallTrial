@@ -65,36 +65,35 @@ namespace Fev10_doma
 
             #region(Big If istifadeci iki regem daxil edir)
 
-            ////evvel sistem bize string kimi deyirki melumati daxil et
-            //Console.WriteLine("Ashagidaki melumatlari qeyd edin.");
+            //evvel sistem bize string kimi deyirki melumati daxil et
+           
+            Console.WriteLine("Ashagidaki melumatlari qeyd edin.");
 
-            //Console.WriteLine("Her hansi regemi daxil et.");
-            //string a = Console.ReadLine();       // nese daxil etdik 
-            //int number1 = int.Parse(a);
+            Console.WriteLine("Her hansi regemi daxil et.");
+            string a = Console.ReadLine();       // nese daxil etdik 
+            int number1 = int.Parse(a);
 
-            //Console.WriteLine("Her hansi regemi daxil et.");
-            //string b = Console.ReadLine();       // nese daxil etdik 
-            //int number2 = int.Parse(b);
+            Console.WriteLine("Her hansi regemi daxil et.");
+            string b = Console.ReadLine();       // nese daxil etdik 
+            int number2 = int.Parse(b);
 
-            //// sonra biz hemin melumati elde edib convert edirik parse ile integer type-a
-            //// bize lazimdi ki user iki dene regem daxil etdikde algoritm onu compare elesin.
-            //// burda loop yoxdu, sade else if ishledirik
+            // sonra biz hemin melumati elde edib convert edirik parse ile integer type-a
+            // bize lazimdi ki user iki dene regem daxil etdikde algoritm onu compare elesin.
+            // burda loop yoxdu, sade else if ishledirik
 
-            //if (number1 > number2)              // birinci daxil edilen regem ikinciden boyuk olsa bunu yazacag
-            //{
-            //    Console.WriteLine("Hormetli istifadeci, birinci daxil etdiyiniz deyer ikinciden boyukdur.");
-            //}
-            //else if (number1 < number2)         //  ikinci daxil edilen regem birinciden boyuk olsa bunu yazacag
-            //{
-            //    Console.WriteLine("Hormetli istifadeci, ikinci daxil etdiyiniz deyer birinciden boyukdur.");
-            //}
-            //else                                // bu ise else-dir, yuxaridaki iki hal odenmese bulari yazacag
-            //{
-            //    Console.WriteLine("Hormetli istifadeci, sizin daxil etdiyiniz deyerler beraberdir. Xahish edirik bir daha cehd edin.");
-            //}
-            #endregion(Big If istifadeci iki regem daxil edir)
-
-
+            if (number1 > number2)              // birinci daxil edilen regem ikinciden boyuk olsa bunu yazacag
+            {
+                Console.WriteLine("Hormetli istifadeci, birinci daxil etdiyiniz deyer ikinciden boyukdur.");
+            }
+            else if (number1 < number2)         //  ikinci daxil edilen regem birinciden boyuk olsa bunu yazacag
+            {
+                Console.WriteLine("Hormetli istifadeci, ikinci daxil etdiyiniz deyer birinciden boyukdur.");
+            }
+            else                                // bu ise else-dir, yuxaridaki iki hal odenmese bulari yazacag
+            {
+                Console.WriteLine("Hormetli istifadeci, sizin daxil etdiyiniz deyerler beraberdir. Xahish edirik bir daha cehd edin.");
+            }
+            #endregion(Big If istifadeci iki regem daxil edir)  
         }
     }
 }
